@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "charts",
+  "info": {
+    "name": "chart"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "biginteger"
+    }
+  }
+}
